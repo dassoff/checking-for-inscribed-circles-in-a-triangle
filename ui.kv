@@ -1,0 +1,59 @@
+MDScreen:
+    MDBoxLayout:
+        orientation: 'vertical'
+        spacing: 10
+        padding: 10
+        #радиус
+        MDLabel:
+            id: labelOcr
+            text: "Радиус окружности - "
+            size_hint_y: None
+            height: 30
+        MDTextField:
+            id:inputOkr
+            multiline: False
+
+        #3 стороны
+        MDLabel:
+            text: "Сторона a - "
+            size_hint_y: None
+            height: 30
+
+        MDTextField:
+            id:adina
+            multiline: False
+
+        MDLabel:
+            text: "Сторона b - "
+            size_hint_y: None
+            height: 30
+
+        MDTextField:
+            id:dvaaa
+            multiline: False
+
+        MDLabel:
+            text: "Сторона c - "
+            size_hint_y: None
+            height: 30
+
+        MDTextField:
+            id:triii
+            multiline: False
+
+        #проверка
+        MDLabel:
+            id:resultt
+            text: ""
+            size_hint_y: None
+            height: 30
+        MDRectangleFlatButton:
+            id:checkk
+            text: "Проверить"
+            on_press: app.check()
+
+
+
+
+
+
